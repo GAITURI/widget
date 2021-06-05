@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:id="@+id/radio_group"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select town"
+            android:id="@+id/text"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mombasa"
+            android:id="@+id/Mombasa"
+            android:onClick="radio_button_click"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mandera"
+            android:id="@+id/Mandera"
+            android:onClick="radio_button_click"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kisumu"
+            android:id="@+id/Kisumu"
+            android:onClick="radio_button_click"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiambu"
+            android:id="@+id/Kiambu"
+            android:onClick="radio_button_click"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nakuru"
+            android:id="@+id/Nakuru"
+            android:onClick="radio_button_click"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muranga"
+            android:id="@+id/Muranga"
+            android:onClick="radio_button_click"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thika"
+            android:id="@+id/Thika"
+            android:onClick="radio_button_click"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machakos"
+            android:id="@+id/Machakos"
+            android:onClick="radio_button_click"
+            tools:ignore="HardcodedText" />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Submit"
+        />
+</LinearLayout>
